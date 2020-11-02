@@ -1,0 +1,58 @@
+header img
+{
+    width : 300px;
+    height : 300px;
+    object-fit : cover;
+    border : 5px solid whitesmoke;
+}
+
+.navbar-brand
+{
+    font-family: "Mountains of Christmas";
+    font-style: bold;
+    font-size: larger;
+}
+
+.bg-primary
+{
+    background-color: rgb(79, 79, 153) !important; 
+}
+
+h1
+{
+    font-family: "Mountains of Christmas", Arial, Helvetica, sans-serif;
+}
+
+h2
+{    
+    color: rgb(67, 67, 141);
+}
+
+main
+{
+    text-align: justify;
+}
+
+
+.subtitle
+{
+    text-align: right;
+    font-size: smaller;
+    font-style: italic;
+    color: rgb(79, 79, 153);
+}
+
+footer
+{
+    background-color: rgb(79, 79, 153);
+    text-align: right;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+footer p
+{
+    color: silver;
+    margin: 0;
+    font-size: smaller;
+}
