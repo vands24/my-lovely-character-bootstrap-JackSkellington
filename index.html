@@ -12,6 +12,7 @@
 
   <!-- CSS adicional-->
   <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/jackBS.css">
 
   <title>ALL HAIL TO THE PUMPKIN KING</title>
@@ -21,41 +22,49 @@
 
 <body>
 
+  <nav class="navbar navbar-expand-lg navbar-light bg-primary sticky-top">
+    <a class="navbar-brand" href="#">Jack S.</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#personality">Personality</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#relationships">Relationships</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact"><span class="align-top"></span>Talk to <span
+              class="creepy font">Jack</span></span></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
 
   <!--cabeçalho-->
   <header class="jumbotron jumbotron-fluid text-center bg-primary">
 
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand">Jack S.</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-light my-2 my-sm-0" type="submit">Search</button>
-        </form>
-      </div>
-    </nav>
-
-    
     <img class="rounded-circle" src="imgs/niceJack.jpg">
-    <h1 class="display-4 text-white mt-4">Jack Skellington</h1>
+    <h1 id="about"class="display-4 text-white mt-4">Jack Skellington</h1>
 
   </header>
 
 
   <!--corpo principal da página-->
-  <main class="container">
+  <main  class="container">
 
-    <h2 class="mt-6 mb-3">About</h2>
+    <h2  class="mt-6 mb-3">About</h2>
     <p>
       Jack Skellington is the "Pumpkin King" of Halloween Town, and the protagonist of Tim Burton's 1993 stop-motion
       Walt Disney Pictures and Touchstone film: The Nightmare Before Christmas.
@@ -66,27 +75,29 @@
       implication that their job is to scare people in the real world on Halloween night, though all in innocent fun.
     </p>
     <img class="img-fluid" src="imgs/Christmastown.jpg">
-    <p class="subtitle">Jack discovering Christmastown</p>
+    <div id="personality"></div>
+    <p  class="subtitle">Jack discovering Christmastown</p>
 
-    <h2 class="mt-6 mb-3">Personality</h2>
+    <h2  class="m-3 pt-3">Personality</h2>
     <!--lista de personalidade em linha (row, col-12)-->
     <div class="row text-center">
       <div class="col-12 mb-4">
         <ul class="list-group list-group-horizontal-md">
-          <li class="list-group-item w-100">Mischievous</li>
-          <li class="list-group-item w-100">Romantic</li>
-          <li class="list-group-item w-100">Good-hearted</li>
-          <li class="list-group-item w-100">Spooky</li>
+          <li class="list-group-item w-100 bg-primary text-white">Mischievous</li>
+          <li class="list-group-item w-100 ">Romantic</li>
+          <li class="list-group-item w-100 bg-primary text-white">Good-hearted</li>
+          <li id="relationships" class="list-group-item w-100">Spooky</li>
         </ul>
       </div>
     </div>
 
-    <h2 class="mt-6 mb-3">Relationships</h2>
-    <p class="mb-6">Jack sticks to small groups of friends even though he is extremely popular in his hometown.</p>
-    <!--coluna 1: Zero-->
-    <div class="row text-center mb-2 mt-2">
-      <div class="col-md-4 pb-4">
-        <div class="card" style="width: 18rem;">
+    <h2  class="mt-6 mb-3 pt-3">Relationships</h2>
+    <p>Jack sticks to small groups of friends even though he is extremely popular in his hometown.</p>
+
+    <div class="row text-center mx-auto">
+      <!--coluna 1: Zero-->
+      <div class="col-lg-4">
+        <div class="card h-100 m-auto">
           <img src="imgs/zero.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Zero</h5>
@@ -100,8 +111,8 @@
       </div>
 
       <!--coluna 2: Sally-->
-      <div class="col-md-4 pb-4">
-        <div class="card" style="width: 18rem;">
+      <div class="col-lg-4">
+        <div class="card h-100 m-auto">
           <img src="imgs/sally.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Sally</h5>
@@ -115,8 +126,8 @@
       </div>
 
       <!--coluna 3: Mayor-->
-      <div class="col-md-4 pb-4">
-        <div class="card" style="width: 18rem;">
+      <div class="col-lg-4">
+        <div class="card h-100 m-auto">
           <img src="imgs/Mayor.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">The Mayor</h5>
@@ -131,8 +142,8 @@
     </div>
 
     <!--Formulário-->
-    <h2 class="mt-10">Talk to Jack</h2>
-    <form method="get" target="_self">
+    <h2 id="contact" class="mt-10 pt-4">Talk to Jack</h2>
+    <form class="border p-2 rounded" method="get" target="_self">
       <div class="form-group">
         <label for="exampleInputName">Name</label>
         <input type="text" class="form-control" id="exampleInputName">
@@ -143,7 +154,7 @@
       </div>
       <div class="form-group">
         <label for="exampleMessage">Write Your Message</label>
-        <input type="text" class="form-control" id="exampleMessage">
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
       </div>
       <button type="submit" class="btn btn-outline-danger">Submit</button>
     </form>

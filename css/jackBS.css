@@ -3,13 +3,13 @@ header img
     width : 300px;
     height : 300px;
     object-fit : cover;
-    border : 5px solid whitesmoke;
+    border : 10px solid whitesmoke;
 }
 
 .navbar-brand
 {
     font-family: "Mountains of Christmas";
-    font-style: bold;
+    font-weight: bold;
     font-size: larger;
 }
 
@@ -18,7 +18,7 @@ header img
     background-color: rgb(79, 79, 153) !important; 
 }
 
-h1
+h1, h2, .navbar-brand
 {
     font-family: "Mountains of Christmas", Arial, Helvetica, sans-serif;
 }
@@ -33,6 +33,16 @@ main
     text-align: justify;
 }
 
+main p
+{
+    font-family: "Mulish", Arial, Helvetica, sans-serif;
+}
+
+.creepy font
+{
+    font-family: "Mountains of Christmas";
+
+}
 
 .subtitle
 {
@@ -55,4 +65,5 @@ footer p
     color: silver;
     margin: 0;
     font-size: smaller;
+    font-family: "Mulish", Arial, Helvetica, sans-serif;
 }
